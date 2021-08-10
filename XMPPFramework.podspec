@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   on a 12-core Mac Pro. (And it won\'t block the main thread... at all).'
 
   s.requires_arc = true
+  s.static_framework = true
 
   s.default_subspec = 'default'
 
